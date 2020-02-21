@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/signup.css" rel="stylesheet">
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+	<title>signup</title>
+</head>
+<body>
+	 <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" id="mainNav" style="background-color: transparent;">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Projecter<b style="color: #e91e63;">X</b>  </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link js-scroll-trigger" href="index.html">HOME</a>
+          </li>
+
+           <li class="nav-item active">
+            <a class="nav-link js-scroll-trigger" href="login.html">LOGIN</a>
+          </li>
+            <li class="nav-item active">
+            <a class="nav-link js-scroll-trigger" href="faq.html">FAQ</a>
+          </li>
+        </ul>
+  </nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="row">
+					<div class="col-md-5 register-left">
+						<h3>ProjecterX</h3>
+						<p>we help you build, manage, and execute your projects</p>
+					<a href="index.html">	<button class="btn btn-primary"> About us</button></a>
+					</div>
+					<div class="col-md-7 register-right">
+						<h2>Register here</h2>
+						<p id="success"></p>
+						<div class="register-form">
+													
+							<div class="form-group">
+	
+								<input type="text" id="username"  class="form-control" placeholder="Username">
+								<p id="empty"></p>
+							</div>
+							<div class="form-group">
+								<input type="text" id="email" class="form-control" placeholder="Phone-number">
+								<p id="mpty"></p>
+							</div>
+							<div class="form-group">
+								<input type="password" id="password"  class="form-control" placeholder="password">
+							<p id="mty"></p>
+							</div>
+							<div class="form-group">
+								<input type="password" id="reenter-password"  class="form-control" placeholder="reenter-password">
+								<p id="emty"></p>
+							</div>
+					<a href="loggedin.html">		<button type="button" id="btn-save" class="btn btn-primary">Register</button></a>
+						
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <script src="vendor/jquery/jquery.min.js"></script>
+	  <script src="js/signup.js"></script>
+</body>
+</html>
